@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work 2 JavaScript base</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<br>
+<p>var a = 1, b = 1, c, d;</p>
+<p>c = ++a; alert(c); // 2 --- по префиксному написанию увеличивает а до 2 и присваивает в с значение 2</p>
+<p>d = b++; alert(d); // 1 ---постфиксный плюс увеличивает b на 1 и устанавливает d = 1</p>
+<p>c = (2+ ++a); alert(c); // 5 ---а уже увеличено и равно 2, увеличиваем еще на 1 и прибавляем 2, ответ 5</p>
+<p>d = (2+ b++); alert(d); // 4 --- b на этом шаге 2 и добавляем 2, увеличение b будет после</p>
+<p>alert(a); // 3 --- когда выводили в с, там а уже было равно 3</p>
+<p>alert(b); // 3 --- после вывода значения d, произошло постфиксное увеличение b и стало равным 3</p>
+
+<script language="javascript">
+    var a = 1, b = 1, c, d;
+    c = ++a; alert(c); // 2
+    d = b++; alert(d); // 1
+    c = (2+ ++a); alert(c); // 5
+    d = (2+ b++); alert(d); // 4
+    alert(a); // 3
+    alert(b); // 3
+</script>
+
+<a href="index.html"><input id="elem" type="button" value="На главную"></a>
+
+</body>
+</html>
