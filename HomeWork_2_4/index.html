@@ -2,22 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home Work 1 JavaScript base</title>
+    <title>Home Work 2 JavaScript base</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 </head>
 <body>
-    <p>Async</p>
-    <a href="async.html"><input id="elem" type="button" value="Async"></a>
-        <br><br><br> 
+    <p>Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return.</p>
+
+<script language="javascript">
+    var a, b, c, d, e, f;
+    a=prompt("Введите первое число:");
+    b=prompt("Введите второе число:");
+    a = parseInt(a);
+    b = parseInt(b);
+    console.log(a);
+    console.log(b);
     
-    <p>Defer</p>    
-    <a href="defer.html"><input id="elem" type="button" value="Defer"></a>
-        <br><br><br>
-        
-    <p>Вернутся в главное меню</p>    
-    <a href="../index.html"><input id="elem" type="button" value="На главную"></a>
-        <br><br><br>
-  
+    function sumFunctions(a, b) {
+        c = a + b;
+        return c;
+        console.log(c);
+    }
+    
+    function diffFunctions(a, b) {
+        d = a - b;
+        return c;
+        console.log(d);
+    }
+    
+    function multFunctions(a, b) {
+        e = a * b;
+        return e;
+        console.log(e);
+    }
+    
+    function divFunctions(a, b) {
+        f = a / b;
+        return f;
+        console.log(f);
+    }
+    
+    
+    
+</script>
+
+<a href="../index.html"><input id="elem" type="button" value="Назад"></a>
+
 </body>
 </html>
